@@ -6,6 +6,7 @@ from dataclasses import dataclass
 class Preference:
     id: int
     item_type: str
+    brand: str
     description: str
     colour: str
 
